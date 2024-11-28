@@ -1,0 +1,79 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+button.voltar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    padding: 10px;
+    background-color: #a4afbb;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+button.voltar:hover {
+    background-color: #5d758f;
+}
+
+#curriculos-lista {
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+button.editar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 10%;
+    padding: 10px;
+    background-color: #a4afbb;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button.editar:hover {
+    background-color: #5d758f;
+}
+
+button.excluir {
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 10%;
+    padding: 10px;
+    background-color: #a4afbb;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button.excluir:hover {
+    background-color: #5d758f;
+}

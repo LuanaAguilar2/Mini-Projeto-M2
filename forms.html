@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Trabalhe conosco</h1>
+        <h4 class="title">Cadastre seu currículo para participar das seleções</h4>
+        <div class="voltarTelaInicial">
+            <a href="index.html"><button class="enviar">Voltar para tela inicial</button></a>
+        </div>
+    </header>
+
+    <main>
+        <form name="formulario">
+            <section id="entry">
+                <h2>Dados cadastrais</h2>
+                <article id="peaple">
+                    <label>Nome completo</label>
+                    <input id="nameUser" type="text" placeholder="Digite seu nome completo" name="nome">
+
+                    <label>Data de nascimento</label>
+                    <input id="date" type="date">
+
+                    <label>CPF:</label>
+                    <input id="cpf" type="number" placeholder="12345678910">
+
+                    <label>Email</label>
+                    <input id="email" type="email" placeholder="Email">
+
+                    <label>Número de contato</label>
+                    <input id="contact" type="tel" placeholder="55+ (DDD)123456789">
+
+                    <label>Estado civil</label>
+                    <select id="civil" name="select">
+                        <option value="marcar" selected>Marque</option>
+                        <option value="casado">Casado</option>
+                        <option value="solteiro">Solteiro</option>
+                        <option value="viuvo">Viúvo(a)</option>
+                    </select>
+
+                    <label>Gênero</label>
+                    <select id="gender" name="select">
+                        <option value="marcar" selected>Marque</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="outros">Outros</option>
+
+                    </select>
+
+                    <label>Endereço:</label>
+                    <input id="address" type="text" placeholder="Endereço, número, complemento">
+
+                    <label>CEP</label>
+                    <input id="cep" type="number" placeholder="Digite o CEP somente números">
+
+                    <label>Bairro</label>
+                    <input id="district" type="text" placeholder="Bairro">
+
+                    <label>Cidade</label>
+                    <input id="city" type="text" placeholder="Cidade">
+
+                    <label>Estado</label>
+                    <input id="state" type="text" placeholder="Estado">
+
+                    <label>Nacionalidade</label>
+                    <input id="nationality" type="text" placeholder="Nacionalidade">
+
+                    <label>Formação</label>
+                    <select id="education" name="select">
+                        <option value="marcar" selected>Marque</option>
+                        <option value="completo">Completo</option>
+                        <option value="cursando">Cursando</option>
+                        <option value="trancado">Trancado</option>
+                    </select>
+
+                    <label>Possui alguma deficiência</label>
+                    <input type="radio" name="deficiency" value="sim" /> Sim
+                    <input type="radio" name="deficiency" value="nao" /> Não
+                </article>
+
+                <h2>Dados do serviço</h2>
+                <article id="service">
+                    <label>Experiência profissional</label>
+                    <textarea id="experience" placeholder="Descreva suas experiências profissionais"></textarea>
+
+                    <label>Tipo de trabalho</label>
+                    <textarea id="work" placeholder="Descreva o tipo de trabalho"></textarea>
+
+                    <label>Cargo atual</label>
+                    <input id="position" type="text" placeholder="Digite seu cargo atual">
+
+                    <label>Cargo desejado</label>
+                    <input id="positionD" type="text" placeholder="Digite o cargo desejado">
+                </article>
+            </section>
+        </form>
+    </main>
+
+    <footer>
+        <a href="saida.html"><button class="enviar" id="salvar" onclick="salvarDados()">Enviar</button></a>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
